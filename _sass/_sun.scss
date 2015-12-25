@@ -1,6 +1,12 @@
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:900,900italic|Karla:400,700,400italic,700italic|Old+Standard+TT:400,400italic,700);
 
+body {
+	color: #0936EB;
+	background: #dee7f1 url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Republic_of_China_National_Emblem.svg/600px-Republic_of_China_National_Emblem.svg.png) no-repeat -100px -100px;
+	background-size: contain;
+}
+
 .type-spec {
 	font-size: 3rem;
 	font-style: normal;
