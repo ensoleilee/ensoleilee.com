@@ -1,12 +1,9 @@
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900,900italic|Karla:400,700,400italic,700italic|Old+Standard+TT:400,400italic,700);
-
 body {
-	color: #0936EB;
-	background: #dee7f1 url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Republic_of_China_National_Emblem.svg/600px-Republic_of_China_National_Emblem.svg.png) no-repeat -100px -100px;
-	background-size: contain;
+	color: #0d095c;
+	background: url(gold.png);
+	font-family: $base-font-family;
+	//border-left: 25px solid #ff3c00;
 }
-
 .type-spec {
 	font-size: 3rem;
 	font-style: normal;
@@ -25,11 +22,49 @@ body {
 }
 
 .french {
-	font-family: 'Playfair Display', serif;
+	font-family: $french;
 }
 .sans {
-	font-family: 'Karla', sans-serif;
+	font-family: $karla;
 }
 .old {
-	font-family: 'Old Standard TT', serif;
+	font-family: $old;
+}
+
+.sol__splash {
+	text-align: center;
+	padding: 2em 0;
+	border-bottom: $doubleborder;
+}
+.logo__ensol {
+	font-family: $french;
+	font-style: italic;
+	font-size: 5rem;
+	color: #e8b005;
+}
+.tagline__ensol {
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	font-size: 1.25rem;
+	font-family: $old;
+}
+.introduction {
+	font-size: 3em;
+}
+.introduction__exupery {
+	width: 30%;
+	float: left;
+}
+.renard {
+	font-family: $old;
+	//font-weight: bold;
+	font-size: 5rem;
+	color: #ff3c00;
+	line-height: 1.25;
+	font-style: normal;
+}
+.introduction__straight {
+	width: 68%;
+	float: left;
+	border-left: $doubleborder;
 }

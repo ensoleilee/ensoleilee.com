@@ -7,3 +7,7 @@ url: "http://ensoleilee.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+collections:
+  menu:
+    output: true

@@ -3,10 +3,11 @@
 ---
 @charset "utf-8";
 
-
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900,900italic|Karla:400,700,400italic,700italic|Old+Standard+TT:400,400italic,700);
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Karla', sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -28,6 +29,11 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+$french: 'Playfair Display', serif;
+$karla: 'Karla', sans-serif;
+$old: 'Old Standard TT', serif;
+
+$doubleborder: 12px double #f9f6ed;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
